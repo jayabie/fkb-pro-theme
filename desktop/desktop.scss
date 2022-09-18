@@ -354,7 +354,7 @@ body.invite-page {
   width: calc(690px + (11px * 2));
   @include bg-br;
   padding: 12px;
-  margin-right: 20em;
+  margin-right: 1em;
   border-top: none;
   &.highlighted {
     animation: background-fade-topiclight 2s ease-out;
