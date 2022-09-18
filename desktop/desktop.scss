@@ -697,3 +697,8 @@ body.user-activity-page .bookmark-list-wrapper {
   max-width: $avatar-post-width;
   width: 100%;
 }
+
+.select-kit.dropdown-select-box.period-chooser {
+    display: none;
+    position: relative;
+}
