@@ -70,7 +70,7 @@ body.invite-page {
 // Menu panel
 
 .menu-panel {
-  margin-right: 1em;
+  margin-left: 1em;
 }
 
 // Search Widget
@@ -117,7 +117,7 @@ body.invite-page {
     .search-result-topic .second-line {
       .discourse-tags .discourse-tag {
         .d-icon {
-          margin-right: 4px;
+          margin-left: 4px;
         }
       }
     }
@@ -129,7 +129,7 @@ body.invite-page {
   }
 }
 
-// Right Sidebar
+// Left Sidebar
 
 .sidebar {
   display: none;
@@ -150,7 +150,7 @@ body.invite-page {
       .visitor {
         display: block;
         h2 {
-          margin-left: 0;
+          margin-right: 0;
         }
         img {
           max-width: 100%;
@@ -189,7 +189,7 @@ body.invite-page {
         .fkb-user-names {
           display: flex;
           flex-flow: column;
-          padding-left: 0.5em;
+          padding-right: 0.5em;
           max-width: 180px;
           .fkb-name {
             font-size: var(--font-up-1);
@@ -299,7 +299,7 @@ body.invite-page {
       font-size: var(--font-up-2);
       font-weight: 600;
       margin-bottom: 10px;
-      margin-left: 0.5em;
+      margin-right: 0.5em;
       line-height: var(--line-height-medium);
     }
     h3 {
@@ -310,7 +310,7 @@ body.invite-page {
       align-items: center;
       margin-bottom: 0.25em;
       .d-icon {
-        margin-right: 0.25em;
+        margin-left: 0.25em;
         font-size: 0.9em;
       }
     }
@@ -354,7 +354,7 @@ body.invite-page {
   width: calc(690px + (11px * 2));
   @include bg-br;
   padding: 12px;
-  margin-left: 1em;
+  margin-right: 1em;
   border-top: none;
   &.highlighted {
     animation: background-fade-topiclight 2s ease-out;
@@ -374,7 +374,7 @@ body.invite-page {
       .topic-body {
         box-shadow: none;
         padding: 12px 0 0 0;
-        margin-left: 0;
+        margin-right: 0;
         border-top: none;
       }
     }
@@ -385,7 +385,7 @@ body.invite-page {
       .topic-body {
         box-shadow: none;
         padding: 12px 0 0 0;
-        margin-left: 0;
+        margin-right: 0;
         border-radius: 0;
       }
     }
@@ -403,8 +403,8 @@ body.invite-page {
 .archetype-private_message {
   .topic-body {
     width: $wo-avatar-width;
-    margin-left: 0;
-    padding: 12px 0 12px 12px;
+    margin-right: 0;
+    padding: 12px 12px 12px 0;
     .cooked {
       padding: 1.5em 1em 3.5em 1em;
     }
@@ -413,7 +413,7 @@ body.invite-page {
     margin: -3.25em 0 0 0;
   }
   .topic-map {
-    margin: 0 0 0 -1.5em;
+    margin: 0 -1.5em 0 0;
   }
   .small-action.topic-post-visited {
     max-width: $avatar-post-width;
@@ -423,12 +423,12 @@ body.invite-page {
   }
   .gap {
     padding: 8px 0;
-    margin: 8px 0 8px auto;
+    margin: 8px auto 8px 0;
   }
   .small-action-desc.timegap {
     padding: 1em;
     border-radius: $br-button;
-    margin: 8px 0 8px -8px;
+    margin: 8px -8px 8px 0;
   }
 }
 
@@ -449,7 +449,7 @@ body.invite-page {
 .small-action {
   border-top: none;
   max-width: $avatar-post-width;
-  margin-left: auto;
+  margin-right: auto;
   .topic-avatar {
     width: 60px;
     height: auto;
@@ -460,7 +460,7 @@ body.invite-page {
     }
   }
   .small-action-desc {
-    margin-left: 1em;
+    margin-right: 1em;
   }
   &.topic-post-visited {
     @include topic-elements;
@@ -469,7 +469,7 @@ body.invite-page {
 
 .gap {
   @include topic-elements;
-  padding-left: 9px;
+  padding-right: 9px;
 }
 
 .time-gap {
@@ -542,7 +542,7 @@ body.invite-page {
       display: none;
     }
     li.preferences a {
-      margin-right: 10px;
+      margin-left: 10px;
     }
     > li > a:hover,
     > li.active > a,
@@ -558,7 +558,7 @@ body.invite-page {
 }
 
 .read-state {
-  right: 10px;
+  left: 10px;
 }
 
 .tag-drop-row {
@@ -586,13 +586,13 @@ nav.post-controls {
       color: var(--primary-high);
     }
     button {
-      margin-right: 0.5em;
+      margin-left: 0.5em;
       color: var(--primary-high);
       svg:not(.d-icon-far-heart) {
         color: var(--primary-high);
       }
       &.create {
-        margin-left: 0;
+        margin-right: 0;
         .d-icon {
           color: unset;
         }
@@ -600,7 +600,7 @@ nav.post-controls {
     }
   }
   .show-replies {
-    margin-left: 0;
+    margin-right: 0;
     white-space: nowrap;
   }
 }
