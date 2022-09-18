@@ -438,7 +438,7 @@ div.menu-links-header .menu-links-row button {
       color: var(--primary-high);
       border-radius: $br-button;
       padding: 10px;
-      margin-left: 0;
+      margin-left: 1;
       &.d-hover:not(.delete),
       &:focus:not(.delete),
       &:active:not(.delete) {
