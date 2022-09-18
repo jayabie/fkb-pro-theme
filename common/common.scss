@@ -942,11 +942,11 @@ body[class*="category-"]:not(.archetype-regular):not(.archetype-banner) {
       padding: 0 1em;
       flex-direction: column;
       .topic-list-avatar {
-        margin: 0 8px 0 0;
+        margin: 0 8px  0;
       }
       .author {
         padding: 1em 0 0.5em 0;
-        margin-right: auto;
+        margin-right: inherit;
         a {
           display: flex;
           align-items: center;
