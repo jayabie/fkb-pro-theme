@@ -1081,21 +1081,21 @@ body[class*="category-"]:not(.archetype-regular):not(.archetype-banner) {
         }
         .d-icon {
           margin-top: -1px;
-          margin-left: 0.25em;
+          margin-right: 0.25em;
         }
         &:empty {
           display: none;
         }
       }
       .likes-tlist {
-        margin-right: 0.667em;
+        margin-left: 0.667em;
       }
       .latest-poster-tlist {
-        margin-left: auto;
-        margin-right: 0.667em;
+        margin-right: auto;
+        margin-left: 0.667em;
       }
       .latest-activity-tlist {
-        margin-right: 0.667em;
+        margin-left: 0.667em;
       }
     }
   }
