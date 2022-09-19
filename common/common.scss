@@ -125,12 +125,10 @@ textarea {
         border-radius: $br-select-body;
       }
     }
-    }
     &.category-drop,
     &.tag-drop {
       flex: 1 1 100%;
     }
-  }
   }
   &.is-highlighted {
     .select-kit-header {
