@@ -131,6 +131,7 @@ textarea {
       flex: 1 1 100%;
     }
   }
+  }
   &.is-highlighted {
     .select-kit-header {
       @include fkb-focus;
