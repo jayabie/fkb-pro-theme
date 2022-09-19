@@ -126,6 +126,9 @@ textarea {
       }
     }
     &.category-drop,
+      desplay: none;
+    }
+    
     &.tag-drop {
       flex: 1 1 100%;
     }
