@@ -125,10 +125,8 @@ textarea {
         border-radius: $br-select-body;
       }
     }
-    &.category-drop,
-      desplay: none;
     }
-    
+    &.category-drop,
     &.tag-drop {
       flex: 1 1 100%;
     }
